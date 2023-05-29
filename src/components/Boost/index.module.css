@@ -1,0 +1,24 @@
+.boostContainer {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../../../src/assets/img/main/bg-boost-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
+    min-height: 200px;
+}
+
+.bostedText {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.boostButton {
+    color: white;
+    border-radius: 10px;
+    background-color: #2acfcf;
+    padding: 6px 12px;
+}

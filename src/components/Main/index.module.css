@@ -1,0 +1,59 @@
+.mainPage {
+    margin-top: 100px;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainTextFirst {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.illustrationOne {
+    margin-left: 140px;
+}
+
+.mainTextSecond {
+    color: #9e9aa7;
+    margin-top: 30px;
+}
+
+.buttonStart {
+    margin-top: 60px;
+    padding: 19px 40px;
+    border-radius: 40px;
+    background-color: #2acfcf;
+    color: white;
+}
+
+.formSearchBar {
+    display: flex;
+    transform: translateX(-200px);
+    padding: 40px;
+    border-radius: 9px;
+    margin-top: 65px;
+    background-image: url(https://raw.githubusercontent.com/frontend-mentor/url-shortening-api-landing-page/b7c398023b30c5f4d7a7ad97533e10803388f97e/images/bg-shorten-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
+}
+
+.inputBar {
+    width: 600px;
+    padding: 17px 32px;
+    border-radius: 10px;
+    border: none;
+}
+
+.buttonSearch {
+    color: white;
+    background-color: #2acfcf;
+    border-radius: 10px;
+    border: none;
+    padding: 17px 32px;
+    margin-left: 20px;
+}

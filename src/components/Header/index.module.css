@@ -1,0 +1,170 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerMenu {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.menuList {
+    color:#A6A8AD;
+    display: flex;
+    gap: 42px;
+}
+
+.headerButtons {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    font-size: 14px;
+}
+
+.buttonSecond{
+    padding: 8px 25px;
+    background-color: #2acfcf;
+    color: white;
+    border-radius: 30px;
+    font-family: var(--font-family-sans-serif);
+}
+
+.logoFirst {
+    display: flex;
+    align-self: center;
+    min-width: 79px;
+}
+
+
+
+/* .wrapperHeader{
+    flex-grow: 1;
+}
+
+.open{
+    display: flex !important;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+    background-color: #3E424B;
+    color: #FAF6F2;
+    padding: 0 40px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #FAF6F2;
+    width: 90px;
+    height: 90px;
+}
+
+.nav{
+    display: flex;
+    width: 700px;
+    padding: 0 40px;
+}
+
+.nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.burgerBtn{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burgerBtn button {
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #FAF6F2;
+}
+
+.burgerBtn::before, .burgerBtn::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #FAF6F2;
+    transition: all 0.3s ease 0s;
+}
+
+.burgerBtn::before { 
+    top: 0 ;
+}
+
+.burgerBtn::after { 
+    bottom: 0 ;
+}
+
+
+.burgerBtn.active button { 
+    transform: scale(0) ;
+}
+
+.burgerBtn.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burgerBtn.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+
+@media screen and (max-width: 980px) {
+    .burgerBtn {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color: black;
+        animation: burgerBtnAnimation 0.4s;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+
+
+@keyframes burgerBtnAnimation {
+    from {opacity: 0}
+    to {opacity: 1}
+}  */
