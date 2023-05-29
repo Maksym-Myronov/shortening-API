@@ -8,10 +8,6 @@ import Footer from './components/Footer/Footer';
 import grafic from './assets/img/main/icon-brand-recognition.svg';
 import detail from './assets/img/main/icon-detailed-records.svg';
 import fully from '../../challenge/src/assets/img/main/icon-fully-customizable.svg';
-import { Routes, Route } from 'react-router-dom';
-
-
-import { Features } from './components/Features/Features';
 
 
 export default function App() {
@@ -19,12 +15,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <Routes>
-            <Route path="/" element={<Main />}>
-            </Route>
-            <Route path="/features" element={<Features />}>
-            </Route>
-        </Routes>
+      <Main />
       <Advanced />
       <div className="AdvancedStatistics">
           <Statics 
